@@ -7,13 +7,14 @@ public class LargestNum {
         Scanner sc = new Scanner(System.in);
         int input;
         int max = 0;
+        System.out.println("Enter your number : ");
 
         while((input = sc.nextInt()) != 0){
             if(input>max){
                 max = input;
             }
         }
-        System.out.println(max);
+        System.out.println("The largest number is = "+max);
 
         sc.close();
     }
